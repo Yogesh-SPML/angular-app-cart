@@ -1,0 +1,23 @@
+<header>
+    <div class="navbar bg-dark navbar-fixed-top" >
+        <div class="navbar-brand align-item-center d-flex">
+            <i  style= " color: aliceblue; font-size: 40px;"class="fa fa-modx">&nbsp;
+                
+            </i>
+            <strong style="color: white; font-size: 30px;">Genpact-Mart</strong>    
+        </div>
+        <div class="clickk">
+            <button class="btn btn-light btn-circle btn-xl" routerLink="/profile" style=" color: transparent; "   >
+                <i class="fa fa-user-circle" style="color:rgb(12, 10, 10) ; "  routerLink="/profile" ></i>
+                
+            </button>
+         </div>
+        
+
+        <button routerLink="/cart" class="btn btn-primary;">
+            <i style="font-size:30px; color: aliceblue;" class="fa fa-suitcase"></i>
+            <div style="font-size:10px ; background-color:red;" class="badge bg danger">{{totalItem}}</div>
+        </button>
+
+    </div> 
+</header>
